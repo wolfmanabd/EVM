@@ -3,15 +3,15 @@ import { FaCheck } from "react-icons/fa";
 
 export default function HowWeHelp() {
     return (
-        <section>
-            <div className="container space-y-18">
+        <section id="howwehelp">
+            <div className="md:container space-y-18">
                 <p className="my-8 text-sm text-[#EB8F02]">How We Help</p>
-                <div className="flex justify-between">
-                    <h2 className="font-bold text-5xl w-[580px]">We Simplify the Transition to Electric Vehicles for Fleets.</h2>
+                <div className="flex flex-col">
+                    <h2 className="font-bold text-xl md:w-[580px]">We Simplify the Transition to Electric Vehicles for Fleets.</h2>
                     <p className="text-sm w-[484px]">Since 2019, we've led the way in creating EV charging solutions that work with all electric vehicle brands and models. Our software platform is designed to empower a wide array of organizations—from car manufacturers to workplaces and diverse fleet types—helping them streamline their EV charging operations and elevate the driver experience.</p>
                 </div>
-                <div className="flex justify-between">
-                    <div className="w-[570px] rounded-lg">
+                <div className="flex flex-col justify-between">
+                    <div className="md:w-[570px] rounded-lg">
                         <Image 
                         className="rounded-2xl"
                         src="/image 128.png"
@@ -20,7 +20,7 @@ export default function HowWeHelp() {
                         height={300}
                         />
                     </div>
-                    <div className="w-[552px] text-sm space-y-4">
+                    <div className="md:w-[552px] text-sm space-y-4">
                         <h1 className="font-bold text-4xl">Versatile Solutions for Every Need.</h1>
                         <p className="font-bold text-lg">Customize your EV charging experience.</p>
                         <div className="space-y-4">
@@ -34,8 +34,8 @@ export default function HowWeHelp() {
                         </div>
                     </div>
                 </div>
-                <div className="flex">
-                <div className="w-[552px] text-sm space-y-4">
+                <div className="flex flex-col">
+                <div className="md:w-[552px] text-sm space-y-4">
                         <h1 className="font-bold text-4xl">Fostering Customer Success.</h1>
                         <p className="font-bold text-lg">We collaborate with you and adapt as you expand.</p>
                         <div className="space-y-4">
@@ -58,8 +58,8 @@ export default function HowWeHelp() {
                         />
                     </div>
                 </div>
-                <div className="flex justify-between">
-                    <div className="w-[570px] rounded-lg">
+                <div className="flex flex-col justify-between">
+                    <div className="md:w-[570px] rounded-lg">
                             <Image 
                             className="rounded-2xl"
                             src="/unsplash_ImGWxDWDGP4.png"
@@ -68,7 +68,7 @@ export default function HowWeHelp() {
                             height={300}
                             />
                         </div>
-                        <div className="w-[552px] text-sm space-y-4">
+                        <div className="md:w-[552px] text-sm space-y-4">
                             <h1 className="font-bold text-4xl">Elevated Driver Experience.</h1>
                             <p className="font-bold text-lg">Charge wherever your journey takes you.</p>
                             <div className="space-y-4">

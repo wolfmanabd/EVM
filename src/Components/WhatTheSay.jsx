@@ -5,10 +5,10 @@ import { FaArrowRight } from "react-icons/fa";
 export default function WhatTheySay() {
     return (
         <section className="bg-[#011929]">
-            <div className="container space-y-6">
+            <div className="md:container space-y-6">
                 <p className="text-sm text-[#EB8F02]">What They Say About Us</p>
                 <div className="flex justify-between text-white">
-                    <h2 className=" font-bold text-5xl w-[500px]">Discover more and dive into the details of Maxwell.</h2>
+                    <h2 className=" font-bold md:text-5xl w-[500px]">Discover more and dive into the details of Maxwell.</h2>
                     <div className="text-sm w-[500px] flex flex-col space-y-8">
                         <p className="text-sm mb-4">Here are testimonials from customers who are thrilled with the products and services we've delivered.
                             </p>
@@ -22,8 +22,8 @@ export default function WhatTheySay() {
                             </div>
                      </div>
                 </div>
-                <div className="flex justify-between my-12">
-                    <div className="flex  w-[708px] space-x-4 text-white">
+                <div className="flex flex-col justify-between my-12">
+                    <div className="flex flex-col w-[708px] space-x-4 text-white">
                         <div className="w-[230px]">
                             <Image 
                                 src="/BG.png"
@@ -45,7 +45,7 @@ export default function WhatTheySay() {
                             <h5>David Lee</h5>
                         </div>
                     </div>
-                    <div className="flex w-[708px] space-x-4 text-white">
+                    <div className="flex flex-col md:w-[708px] space-x-4 text-white">
                         <div className="w-[230px] h-[230px]">
                             <Image 
                                 src="/BG (1).png"

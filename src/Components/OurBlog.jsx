@@ -7,8 +7,8 @@ export default function OurBlog() {
     <section className="bg-[#011929]  text-white text-sm">
       <div className="container">
         <p className="text-[#EB8F02] text-sm my-12">Our Blog</p>
-        <div className="flex justify-between my-12">
-          <h1 className="text-5xl font-bold">
+        <div className="flex flex-col items-center  my-12">
+          <h1 className="md:text-5xl font-bold">
             Stay Informed on the Cutting-Edge of Technology
           </h1>
           <div className=" flex justify-end space-x-8 mt-6 text-md">
@@ -20,7 +20,7 @@ export default function OurBlog() {
             </span>
           </div>
         </div>
-        <div className="flex justify-between">
+        <div className="flex flex-col justify-between">
           <div className="w-[300px] h-[572px] my-12 space-y-6 ">
             <div>
               <Image
