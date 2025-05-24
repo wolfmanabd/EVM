@@ -13,7 +13,7 @@ export default function whoWeAre() {
     >
       <div className="container flex md:flex-row flex-col justify-between text-start text-sm mt-8">
         <div className="md:w-[520px] space-y-4">
-          <p className="text-[#EB8F02]">Who We Are</p>
+          <p className="text-[#EB8F02] mt-6">Who We Are</p>
           <h1 className="text-lg md:text-4xl font-bold">
             We Provide a Variety of Charging Solutions Customized to Fit your
             Unique Business Model.
