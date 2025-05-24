@@ -4,14 +4,14 @@ import { FaPlus } from "react-icons/fa6";
 export default function Faqs() {
   return (
     <section id="faqs">
-      <div className="container">
-        <p className="text-sm text-[#EB8F02] my-12">FAQs</p>
-        <div className="flex flex-col justify-between container">
+      <div className=" container">
+        <p className="text-sm text-[#EB8F02] md:my-12 mt-6">FAQs</p>
+        <div className="flex flex-col justify-between mt-4">
           <div className="md:w-[650px] space-y-12 text-[#344054] text-sm">
             <h2 className="text-xl lg:text-5xl font-bold">
               More Than 1500 Charging Stations & Growing Big
             </h2>
-            <div className="lg:w-[520px] space-y-4">
+            <div className="lg:w-[520px] space-y-4 w-[95%] mx-auto">
               <div className="flex justify-between">
                 <p className="font-semibold text-md">What is Maxwell </p>
                 <GoDash className="text-2xl" />
@@ -23,7 +23,7 @@ export default function Faqs() {
                 with other EV enthusiasts.
               </p>
             </div>
-            <div className="lg:w-[520px] space-y-4">
+            <div className="lg:w-[520px] space-y- w-[95%] mx-auto">
               <div className="flex justify-between">
                 <p className="font-semibold text-md">
                   How does Maxwell improve the EV charging experience?
@@ -38,7 +38,7 @@ export default function Faqs() {
                 experiences.
               </p>
             </div>
-            <div className="lg:w-[520px] space-y-4">
+            <div className="lg:w-[520px] space-y-4 w-[95%] mx-auto">
               <div className="flex justify-between">
                 <p className="font-semibold text-md">
                   What features make Maxwell stand out from other social apps?
@@ -46,7 +46,7 @@ export default function Faqs() {
                 <FaPlus className="text-2xl" />
               </div>
             </div>
-            <div className="lg:w-[520px] space-y-4">
+            <div className="lg:w-[520px] space-y-4 w-[95%] mx-auto">
               <div className="flex justify-between">
                 <p className="font-semibold text-md">
                   Does Maxwell provide information on charging costs?{" "}
@@ -54,7 +54,7 @@ export default function Faqs() {
                 <FaPlus className="text-2xl" />
               </div>
             </div>
-            <div className="lg:w-[520px] space-y-4">
+            <div className="lg:w-[520px] space-y-4 w-[95%] mx-auto">
               <div className="flex justify-between">
                 <p className="font-semibold text-md">
                   Can I find other EV owners to connect with on the app?
@@ -62,7 +62,7 @@ export default function Faqs() {
                 <FaPlus className="text-2xl" />
               </div>
             </div>
-            <div className="lg:w-[520px] space-y-4">
+            <div className="lg:w-[520px] space-y-4 w-[95%] mx-auto">
               <div className="flex justify-between">
                 <p className="font-semibold text-md">
                   What types of payment methods does Maxwell support?
@@ -70,7 +70,7 @@ export default function Faqs() {
                 <FaPlus className="text-2xl" />
               </div>
             </div>
-            <div className="lg:w-[520px] space-y-4">
+            <div className="lg:w-[520px] space-y-4 w-[95%] mx-auto">
               <div className="flex justify-between">
                 <p className="font-semibold text-md">
                   Is my data secure while using Maxwell?
@@ -78,7 +78,7 @@ export default function Faqs() {
                 <FaPlus className="text-2xl" />
               </div>
             </div>
-            <div className="lg:w-[520px] space-y-4">
+            <div className="lg:w-[520px] space-y-4 w-[95%] mx-auto">
               <div className="flex justify-between">
                 <p className="font-semibold text-md">
                   How can I provide feedback or report an issue with the app?

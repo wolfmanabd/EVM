@@ -22,7 +22,7 @@ export default function HowItWorks() {
             travel and take charge of your journeys!{" "}
           </p>
 
-          <div className="flex flex-col  md:w-[600px] justify-between space-x-3 text-sm">
+          <div className="flex flex-col  md:w-[600px] justify-between space-x-3 text-sm mx-auto">
             <div className="flex flex-col space-y-3 md:w-[370px]">
               <div className="bg-[#1D2939] rounded-3xl items-center flex justify-center w-[80vw] h-80 relative">
                 <Image src="/iPhone 17.png" alt="iPhone" fill />

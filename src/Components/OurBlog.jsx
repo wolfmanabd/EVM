@@ -7,11 +7,11 @@ export default function OurBlog() {
     <section className="bg-[#011929]  text-white text-sm">
       <div className="container">
         <p className="text-[#EB8F02] text-sm my-12">Our Blog</p>
-        <div className="flex flex-col items-center  my-12">
+        <div className="flex flex-col items-center space-y-3  md:my-12">
           <h1 className="md:text-5xl font-bold">
             Stay Informed on the Cutting-Edge of Technology
           </h1>
-          <div className=" flex justify-end space-x-8 mt-6 text-md">
+          <div className="flex justify-end space-x-8 md:mt-6 text-md">
             <span className="bg-[#FDFDFD33] w-10 h-10 p-1 flex items-center justify-center rounded-full">
               <FaArrowLeft />
             </span>
@@ -21,13 +21,12 @@ export default function OurBlog() {
           </div>
         </div>
         <div className="flex flex-col justify-between">
-          <div className="w-[300px] h-[572px] my-12 space-y-6 ">
-            <div>
+          <div className="md:w-[300px] md:h-[572px] my-12 ml:10 space-y-6 ">
+            <div className="w-100 h-90 relative">
               <Image
                 src="/Frame 1686561722.png"
                 alt="blog"
-                width={300}
-                height={300}
+                fill
                 className="rounded-lg"
               />
             </div>
@@ -40,13 +39,12 @@ export default function OurBlog() {
               “ Technology and Innovation Pathways for Zero Carbon Buildings 
             </p>
           </div>
-          <div className="w-[300px] my-12 space-y-6 text-sm">
-            <div>
+          <div className="md:w-[300px] md:my-12 space-y-6 text-sm">
+            <div className="w-100 h-90 relative">
               <Image
                 src="/Frame 1686561722 (1).png"
                 alt="blog"
-                width={300}
-                height={300}
+                fill
                 className="rounded-lg"
               />
             </div>
@@ -58,20 +56,19 @@ export default function OurBlog() {
               the transition to electric mobility.
             </p>
           </div>
-          <div className="w-[300px] my-12 space-y-6 text-sm">
-            <div>
+          <div className="md:w-[300px] md:my-12 space-y-6 text-sm">
+            <div className="w-100 h-90 relative">
               <Image
                 src="/Frame 1686561722 (2).png"
                 alt="blog"
-                width={300}
-                height={300}
+                fill
                 className="rounded-lg"
               />
             </div>
             <p className="text-md">
               Charging Ahead: Navigating tthe Electric Car Station Landscape
             </p>
-            <p className="text-[#98A2B3] text-sm">
+            <p className="text-[#98A2B3] text-sm mb-6">
               Maxwell is a social app designed for electric vehicle (EV) owners,
               providing them with information about nearby charging stations,
               real-time availability, and the ability to connect with other EV

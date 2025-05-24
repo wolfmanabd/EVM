@@ -56,7 +56,7 @@ export default function HowWeHelp() {
                         />
                     </div>
                 </div>
-                <div className="flex flex-col justify-between">
+                <div className="flex flex-col justify-between mb-10">
                     <div className="w-100 h-60 relative rounded-lg">
                             <Image 
                             className="rounded-2xl"
