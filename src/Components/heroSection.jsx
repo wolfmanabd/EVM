@@ -2,7 +2,7 @@ import Image from "next/image";
 import Navbar from "./Navbar/Navbar";
 export default function heroSection() {
     return (
-      <section className="relative bg-[url(/hero.png)] w-[100vw] bg-cover bg-center h-[90vh]" >
+      <section className="relative bg-[url(/hero.png)] w-[100vw] bg-cover bg-center h-[80vh]" >
       <div className="absolute inset-0 bg-black opacity-50 "></div>
   
         {/* Content */}-
@@ -21,7 +21,7 @@ export default function heroSection() {
                     <button className="mt-8 border-b ">Explore More <span className="ml-2">&darr;</span></button>
                 </div>
             </div>
-            <div className="md:w-1/2 items-center mx-auto relative md:left-48 w-[90%] h-[50%] -mt-6">
+            <div className="md:w-1/2 items-center mx-auto relative md:left-48 w-[90%] h-[80%] -mt-6">
               <Image
                 src="/iPhone 15 Pro.png"
                 alt="My Next.js App Logo"
