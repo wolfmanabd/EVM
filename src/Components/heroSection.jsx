@@ -21,7 +21,7 @@ export default function heroSection() {
                     <button className="mt-8 border-b ">Explore More <span className="ml-2">&darr;</span></button>
                 </div>
             </div>
-            <div className="md:w-1/2 items-center mx-auto relative md:left-48 w-80 h-[80%] -mt-6">
+            <div className="md:w-1/2 items-center mx-auto relative md:left-48 w-[90%] h-[50%] -mt-6">
               <Image
                 src="/iPhone 15 Pro.png"
                 alt="My Next.js App Logo"
