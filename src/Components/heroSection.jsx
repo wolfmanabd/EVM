@@ -12,7 +12,7 @@ export default function heroSection() {
           </div>
           <div className="flex flex-col md:flex-row mt-15">
             
-            <div className=" text-start flex flex-col md:justify-around md:h-[328px] text-sm">
+            <div className=" text-start flex flex-col md:justify-around md:h-[328px] text-sm mb-6">
               <p className="text-[#EB8F02] font-bold">For Everyone, Every Business, and Every Electric Vehicle</p>
               <h1 className="text-2xl md:text-6xl font-bold md:w-[500px]">Solutions for EV Charging Stations</h1>
               <p className="mt-1 ">Our residential, commercial, and fast charging stations are highly compatible, built on open standards, and designed for accessibility for all.</p>
@@ -21,7 +21,7 @@ export default function heroSection() {
                     <button className="mt-8 border-b ">Explore More <span className="ml-2">&darr;</span></button>
                 </div>
             </div>
-            <div className="md:w-1/2 items-center mx-auto relative md:left-48 w-[90%] h-[80%] -mt-6">
+            <div className="md:w-1/2 items-center mx-auto relative md:left-48 w-[90%] h-[80%] md:-mt-6">
               <Image
                 src="/iPhone 15 Pro.png"
                 alt="My Next.js App Logo"
