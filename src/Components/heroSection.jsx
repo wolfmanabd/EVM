@@ -2,7 +2,7 @@ import Image from "next/image";
 import Navbar from "./Navbar/Navbar";
 export default function heroSection() {
     return (
-      <section className="relative bg-[url(/hero.png)] w-[100vw] bg-cover bg-center h-[100vh]" >
+      <section className="relative bg-[url(/hero.png)] w-[100vw] bg-cover bg-center h-[90vh]" >
       <div className="absolute inset-0 bg-black opacity-50 "></div>
   
         {/* Content */}-
