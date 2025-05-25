@@ -27,7 +27,7 @@ export default function heroSection() {
                 alt="My Next.js App Logo"
                 fill
               />
-              <div className="absolute -bottom-1 left-10 text-sm md:-bottom-6 md:ml-38 bg-[#FCFCFD33] text-white backdrop-blur-lg  w-[220px] h-[120px] md:w-[270px] md:h-[152px] p-2 z-10 rounded-4xl text-start hidden md:block">    
+              <div className="absolute -bottom-1 left-10 text-sm md:-bottom-6 md:ml-38 bg-[#FCFCFD33] text-white backdrop-blur-lg  w-[220px] h-[120px] md:w-[270px] md:h-[152px] p-2 z-10 rounded-4xl text-start  md:block">    
                 <p>Boost efficiency with the cutting-edge Charging Station App for Electric Vehicle Owners</p>
                 <button className="border-b md:mt-4 m-0 p-0 ">Download App <span className="md:ml-2">&rarr;</span></button>
               </div>
