@@ -22,9 +22,9 @@ export default function HowItWorks() {
             travel and take charge of your journeys!{" "}
           </p>
 
-          <div className="flex flex-col  md:w-[600px] justify-between space-x-3 text-sm mx-auto">
+          <div className="flex flex-col  md:w-[600px] justify-between space-x-3 text-sm">
             <div className="flex flex-col space-y-3 md:w-[370px]">
-              <div className="bg-[#1D2939] rounded-3xl items-center flex justify-center w-[80vw] h-80 relative">
+              <div className="bg-[#1D2939] rounded-3xl items-center flex justify-center w-[80vw] h-80 relative mx-auto">
                 <Image src="/iPhone 17.png" alt="iPhone" fill />
               </div>
               <p className="text-[#344054] text-md">Tracking</p>
@@ -33,7 +33,7 @@ export default function HowItWorks() {
               </p>
             </div>
             <div className="flex flex-col space-y-1 md:w-[370px]">
-              <div className="bg-[#1D2939] rounded-3xl items-center flex justify-center h-80 w-[80vw] relative overflow-hidden">
+              <div className="bg-[#1D2939] rounded-3xl items-center flex justify-center h-80 w-[80vw] relative mx-auto">
                 <Image src="/iPhone 16.png" alt="iPhone" fill />
               </div>
               <p className="text-[#344054] text-md">OPEN MAPS</p>
@@ -44,7 +44,7 @@ export default function HowItWorks() {
           </div>
           <div className="flex flex-col md:w-[600px] justify-between space-x-3 text-sm">
             <div className="flex flex-col space-y-2 mb-2 md:w-[200px]">
-              <div className="bg-[#1D2939] rounded-3xl items-center flex justify-center md:h-[280px] overflow-hidden w-[80vw] h-80 relative">
+              <div className="bg-[#1D2939] rounded-3xl items-center flex justify-center md:h-[280px] mx-auto w-[80vw] h-80 relative">
                 <Image src="/iPhone 15 Pro.png" alt="iPhone" fill />
               </div>
               <p className="text-[#344054] text-md">direction</p>
@@ -53,7 +53,7 @@ export default function HowItWorks() {
               </p>
             </div>
             <div className="flex flex-col space-y-2  md:w-[200px]">
-              <div className="bg-[#1D2939] rounded-3xl items-center flex justify-center h-80         w-[80vw] relative">
+              <div className="bg-[#1D2939] rounded-3xl items-center flex justify-center h-80     mx-auto    w-[80vw] relative">
                 <Image src="/iPhone 14.png" alt="iPhone" fill />
               </div>
               <p className="text-[#344054] text-md">community </p>
@@ -64,7 +64,7 @@ export default function HowItWorks() {
           </div>
           <div className="flex flex-col md:w-[600px] justify-between space-x-3 text-sm">
             <div className="flex flex-col space-y-2 md:w-[200px]">
-            <div className="bg-[#1D2939] rounded-3xl items-center flex justify-center h-80         w-[80vw] relative">
+            <div className="bg-[#1D2939] rounded-3xl items-center flex justify-center h-80 mx-auto w-[80vw] relative">
                 <Image src="/iPhone 14 Pro.png" alt="iPhone" fill />
               </div>
               <p className="text-[#344054] text-md">REWARDS</p>
@@ -73,7 +73,7 @@ export default function HowItWorks() {
               </p>
             </div>
             <div className="flex flex-col space-y-2">
-              <div className="bg-[#1D2939] rounded-3xl items-center flex justify-center h-80 w-[80vw] relative">
+              <div className="bg-[#1D2939] rounded-3xl items-center flex justify-center h-80 w-[80vw] relative mx-auto">
                 <Image src="/iPhone 12 Pro.png" alt="iPhone" fill />
               </div>
               <p className="text-[#344054] text-md">connectivity</p>
@@ -94,14 +94,14 @@ export default function HowItWorks() {
         </p>
       </div>
       <div className="container flex flex-col space-x-6 space-y-6 md:items-center ">
-        <div className="border-[#344054] border w-[80vw] h-80 p-6 md:w-[412px] lg:h-[370px] flex flex-col rounded-2xl md:mb-12 justify-center items-center">
+        <div className="border-[#344054] border w-[80vw] h-80 p-6 md:w-[412px] lg:h-[370px] flex flex-col rounded-2xl md:mb-12 justify-center items-center mx-auto">
           <div className=" w-full h-full relative ">
             <Image src="/how-to-charge-01.png" alt="charge" fill />
           </div>
           <p className="font-semibold">connect your charger</p>
         </div>
-        <div className="border-[#344054] border p-6 md:w-[412px] md:h-[370px] flex justify-center items-center flex-col rounded-2xl mb-12 w-[80vw] h-80">
-          <div className="w-full h-full relative">
+        <div className="border-[#344054] border p-6 md:w-[412px] md:h-[370px] flex justify-center items-center flex-col rounded-2xl mb-12 w-[80vw] h-80 mx-auto">
+          <div className="w-full h-full relative ">
             <Image src="/how-to-charge-02.png" alt="charge" fill />
           </div>
 
@@ -110,8 +110,8 @@ export default function HowItWorks() {
             Using the Maxwell app, RFID, or your credit card.
           </p>
         </div>
-        <div className="border-[#344054] border p-6 md:w-[412px] md:h-[370px] flex justify-center items-center flex-col rounded-2xl mb-12 w-[80vw] h-80">
-            <div className="w-full h-full relative">
+        <div className="border-[#344054] border p-6 md:w-[412px] md:h-[370px] flex justify-center items-center flex-col rounded-2xl mb-12 w-[80vw] h-80 mx-auto">
+            <div className="w-full h-full relative ">
             <Image
             src="/how-to-charge-03.png"
             alt="charge"

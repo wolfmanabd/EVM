@@ -65,19 +65,19 @@ export default function whoWeAre() {
         <div className="md:w-[440px] mt-4 flex flex-col items-center">
           <div className="flex flex-col md:flex-row text-sm justify-between space-y-3">
             <div className="md:w-[144px]">
-              <h3 className="font-bold text-lg text-center md:text-3xl">
+              <h3 className="font-bold text-lg text-center text-xl md:text-3xl">
                 7.5M+
               </h3>
               <p>Charging sessions have been successfully initiated.</p>
             </div>
             <div className="md:w-[120px]">
-              <h3 className="font-bold text-lg text-center md:text-3xl">
+              <h3 className="font-bold text-lg text-center text-xl md:text-3xl">
                 13K+
               </h3>
               <p>Charging sessions currently active in the network.</p>
             </div>
             <div className="md:w-[140px]">
-              <h3 className="font-bold text-lg text-center md:text-3xl">82%</h3>
+              <h3 className="font-bold text-lg text-center text-xl md:text-3xl">82%</h3>
               <p>Sustainable Charging Stations for a Greener Future</p>
             </div>
           </div>

@@ -11,7 +11,7 @@ export default function OurBlog() {
           <h1 className="md:text-5xl font-bold">
             Stay Informed on the Cutting-Edge of Technology
           </h1>
-          <div className="flex justify-end space-x-8 md:mt-6 text-md">
+          <div className="flex justify-end space-x-8 mb-4 md:mt-6 text-md">
             <span className="bg-[#FDFDFD33] w-10 h-10 p-1 flex items-center justify-center rounded-full">
               <FaArrowLeft />
             </span>
@@ -20,8 +20,8 @@ export default function OurBlog() {
             </span>
           </div>
         </div>
-        <div className="flex flex-col justify-between">
-          <div className="md:w-[300px] md:h-[572px] my-12 ml:10 space-y-6 ">
+        <div className="flex flex-col justify-between space-y-6">
+          <div className="md:w-[300px] md:h-[572px] md:my-12 ml:10 space-y-4 ">
             <div className="w-100 h-90 relative">
               <Image
                 src="/Frame 1686561722.png"
