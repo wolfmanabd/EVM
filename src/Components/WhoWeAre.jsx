@@ -11,20 +11,20 @@ export default function whoWeAre() {
       id="whoweare"
       className=""
     >
-      <div className="container flex md:flex-row flex-col justify-between text-start text-sm mt-8">
+      <div className="container flex md:flex-row flex-col justify-between text-start text-md mt-8">
         <div className="md:w-[520px] space-y-4">
-          <p className="text-[#EB8F02] mt-6">Who We Are</p>
+          <p className="text-[#EB8F02] font-semibold text-lg mt-6">Who We Are</p>
           <h1 className="text-lg md:text-4xl font-bold">
             We Provide a Variety of Charging Solutions Customized to Fit your
             Unique Business Model.
           </h1>
-          <p className="text-[#344054] text-sm">
+          <p className="text-[#344054]">
             We are dedicated to providing the necessary infrastructure and
             expertise to support the transition to electric mobility, ensuring
             our customers are satisfied and their vehicles remain fully
             operational.
           </p>
-          <div className="text-sm md:w-[678px] space-y-3">
+          <div className="md:w-[678px] space-y-3">
             <div className="flex items-center ">
               <span className="bg-[#FEF7ED] p-2 rounded-full">
                 <FaCheck className="text-[#EB8F02]" />
@@ -63,21 +63,21 @@ export default function whoWeAre() {
           </div>
         </div>
         <div className="md:w-[440px] mt-4 flex flex-col items-center">
-          <div className="flex flex-col md:flex-row text-sm justify-between space-y-3">
+          <div className="flex flex-col md:flex-row text-sm justify-around space-y-3">
             <div className="md:w-[144px]">
-              <h3 className="font-bold text-lg text-center text-xl md:text-3xl">
+              <h3 className="font-bold  text-center text-xl md:text-4xl">
                 7.5M+
               </h3>
               <p>Charging sessions have been successfully initiated.</p>
             </div>
             <div className="md:w-[120px]">
-              <h3 className="font-bold text-lg text-center text-xl md:text-3xl">
+              <h3 className="font-bold  text-center text-xl md:text-4xl">
                 13K+
               </h3>
               <p>Charging sessions currently active in the network.</p>
             </div>
             <div className="md:w-[140px]">
-              <h3 className="font-bold text-lg text-center text-xl md:text-3xl">82%</h3>
+              <h3 className="font-bold  text-center text-xl md:text-4xl">82%</h3>
               <p>Sustainable Charging Stations for a Greener Future</p>
             </div>
           </div>
@@ -97,8 +97,8 @@ export default function whoWeAre() {
             Driver
           </h2>
         </div>
-        <div className="lg:w-[440px] mt-2">
-          <div className="flex text-sm">
+        <div className="lg:w-[540px] mt-2">
+          <div className="">
             <p>
               For over ten years, we’ve been pioneering the fueling network of
               the future. We’ve established more charging locations than any
@@ -115,8 +115,8 @@ export default function whoWeAre() {
       <div className="container my-8 md:h-[441px]">
         <Image src="/streets-map.png" alt="map" width={1400} height={440} />
       </div>
-      <div className="container flex flex-col md:flex-row justify-between space-y-6 my-8">
-        <div className="flex flex-col lg:w-[350px] items-start text-sm bg-[#F2F4F7] space-y-4 p-4 rounded-2xl md:h-[256px] ">
+      <div className="container flex flex-col md:flex-row justify-between space-y-6 md:my-8">
+        <div className="flex flex-col md:w-[350px] items-start text-sm bg-[#F2F4F7] space-y-4 p-4 rounded-2xl md:h-[256px] ">
           <div className="bg-[#EB8F024D] rounded-full w-10 h-10 p-3 flex items-center justify-center">
             <span className="bg-[#EB8F02] rounded-full p-1 w-5 h-5 flex items-center justify-center text-lg text-white">
               <GoCpu />
@@ -132,7 +132,7 @@ export default function whoWeAre() {
             tailored for every user.
           </p>
         </div>
-        <div className="flex flex-col lg:w-[350px] items-start text-sm bg-[#F2F4F7] space-y-4 p-6 rounded-2xl h-[256px] ">
+        <div className="flex flex-col md:w-[350px] items-start text-sm bg-[#F2F4F7] space-y-4 p-6 rounded-2xl h-[256px] ">
           <div className="bg-[#EB8F024D] rounded-full w-10 h-10 p-3 flex items-center justify-center">
             <span className="bg-[#EB8F02] rounded-full p-1 w-5 h-5 flex items-center justify-center text-lg text-white">
               <TbBatteryCharging />
@@ -161,7 +161,7 @@ export default function whoWeAre() {
           </p>
         </div>
       </div>
-      <div className="lg:flex hidden  align-middle md:space-y-4 items-center md:h-[170px] w-full ">
+      <div className="container lg:flex hidden  align-middle md:space-y-4 items-center md:h-[170px] w-full ">
         <div>
           <Image src="/image 139.png" alt="partners" width={150} height={100} />
         </div>

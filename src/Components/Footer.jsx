@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#101828]">
       <div className="container text-white">
-        <div className="flex flex-col justify-between mt-12 space-y-6">
+        <div className="flex flex-col md:flex-row justify-between mt-12 space-y-6">
           <div className="w-[234px] flex flex-col justify-between">
             <div>
               <Image
@@ -34,21 +34,21 @@ export default function Footer() {
               </span>
             </div>
           </div>
-          <div className="flex justify-around space-x-8 space-y-4 md:w-[643px] text-sm">
-            <div className="flex flex-col md:w-[111px] space-y-3">
+          <div className="flex justify-around space-x-8 space-y-4 md:w-[400px] text-sm">
+            <div className="flex flex-col  space-y-3">
               <p className="text-xl">Company</p>
               <li>contact</li>
               <li>Blog</li>
               <li>FAQs</li>
             </div>
-            <div className="flex flex-col md:w-[111px] space-y-3">
-              <li className="text-xl">Features</li>
+            <div className="flex flex-col  space-y-3">
+              <p className="text-xl">Features</p>
               <li>How it Works</li>
               <li>Who We Are</li>
               <li>How We Help</li>
             </div>
           </div>
-          <div className="flex flex-col text-sm mb-6 lg:w-[285px] text-[#98A2B3] space-y-6">
+          <div className="flex flex-col text-sm mb-6 text-[#98A2B3] space-y-6">
               <div className="flex space-x-3">
                 <CiLocationOn className="text-xl" />
                 <p>Learning park 366 jerry Underpass 08966 Virgina, US</p>
@@ -63,11 +63,11 @@ export default function Footer() {
               </div>
             </div>
         </div>
-        <div className="my-8 mx-auto container ">
-          <Image src="/MAXWELL H.png" alt="maxwelh" width={500} height={250} />
+        <div className="my-8 relative md:w-300 w-100 h-30 mx-auto">
+          <Image src="/MAXWELL H.png" alt="maxwelh" fill />
         </div>
         <div className="border-[#667085] border mb-6"></div>
-        <div className="flex flex-col text-center justify-between space-y-2 text-sm text-[#667085]">
+        <div className="flex flex-col text-center md:flex-row justify-between space-y-2 text-sm text-[#667085]">
           <p>Copyright Maxwell Co. © 2024</p>
           <p>Privacy & Policy</p>
         </div>

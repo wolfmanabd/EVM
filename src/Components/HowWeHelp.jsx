@@ -5,13 +5,13 @@ export default function HowWeHelp() {
     return (
         <section id="howwehelp">
             <div className="container space-y-18">
-                <p className="my-8 text-sm text-[#EB8F02]">How We Help</p>
+                <p className="my-8 text-md font-semibold text-[#EB8F02]">How We Help</p>
                 <div className="flex flex-col">
                     <h2 className="font-bold text-xl md:w-[580px]">We Simplify the Transition to Electric Vehicles for Fleets.</h2>
                     <p className="text-sm md:w-[484px]">Since 2019, we've led the way in creating EV charging solutions that work with all electric vehicle brands and models. Our software platform is designed to empower a wide array of organizations—from car manufacturers to workplaces and diverse fleet types—helping them streamline their EV charging operations and elevate the driver experience.</p>
                 </div>
-                <div className="flex flex-col justify-between">
-                    <div className="md:w-[570px] rounded-lg w-100 h-60 relative">
+                <div className="flex flex-col md:flex-row justify-between">
+                    <div className="md:w-[570px] rounded-lg w-100 h-60 md:h-80 relative">
                         <Image 
                         className="rounded-2xl"
                         src="/image 128.png"
@@ -33,7 +33,7 @@ export default function HowWeHelp() {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col md:flex-row  justify-between">
                 <div className="md:w-[552px] text-sm space-y-4">
                         <h1 className="font-bold text-xl md:text-4xl">Fostering Customer Success.</h1>
                         <p className="font-bold text-lg">We collaborate with you and adapt as you expand.</p>
@@ -47,7 +47,7 @@ export default function HowWeHelp() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-100 h-60 relative rounded-lg mt-6">
+                    <div className="w-100 h-60 md:h-80 md:w-150 relative rounded-lg mt-6">
                         <Image 
                         className="rounded-2xl"
                         src="/unsplash_rLTjEVGXNBA.png"
@@ -56,8 +56,8 @@ export default function HowWeHelp() {
                         />
                     </div>
                 </div>
-                <div className="flex flex-col justify-between mb-10">
-                    <div className="w-100 h-60 relative rounded-lg">
+                <div className="flex flex-col md:flex-row  justify-between mb-10">
+                    <div className="w-100 h-60 md:h-80 md:w-150 relative rounded-lg">
                             <Image 
                             className="rounded-2xl"
                             src="/unsplash_ImGWxDWDGP4.png"

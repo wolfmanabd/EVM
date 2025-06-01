@@ -6,7 +6,7 @@ export default function Faqs() {
     <section id="faqs">
       <div className=" container">
         <p className="text-sm text-[#EB8F02] md:my-12 mt-6">FAQs</p>
-        <div className="flex flex-col justify-between mt-4">
+        <div className="flex flex-col md:flex-row justify-between mt-4">
           <div className="md:w-[650px] space-y-12 text-[#344054] text-sm">
             <h2 className="text-xl lg:text-5xl font-bold">
               More Than 1500 Charging Stations & Growing Big

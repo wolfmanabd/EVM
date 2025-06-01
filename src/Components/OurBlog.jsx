@@ -6,8 +6,8 @@ export default function OurBlog() {
   return (
     <section className="bg-[#011929]  text-white text-sm">
       <div className="container">
-        <p className="text-[#EB8F02] text-sm my-12">Our Blog</p>
-        <div className="flex flex-col items-center space-y-3  md:my-12">
+        <p className="text-[#EB8F02] text-md  font-semibold my-12">Our Blog</p>
+        <div className="flex flex-col md:flex-row items-center space-y-3  md:my-12">
           <h1 className="md:text-5xl font-bold">
             Stay Informed on the Cutting-Edge of Technology
           </h1>
@@ -20,9 +20,9 @@ export default function OurBlog() {
             </span>
           </div>
         </div>
-        <div className="flex flex-col justify-between space-y-6">
-          <div className="md:w-[300px] md:h-[572px] md:my-12 ml:10 space-y-4 ">
-            <div className="w-100 h-90 relative">
+        <div className="flex flex-col md:flex-row justify-around space-y-6 space-x-6">
+          <div className=" md:my-12 md:text-md space-y-6 text-sm ">
+            <div className="w-100 md:w-90 h-90 relative">
               <Image
                 src="/Frame 1686561722.png"
                 alt="blog"
@@ -39,7 +39,7 @@ export default function OurBlog() {
               “ Technology and Innovation Pathways for Zero Carbon Buildings 
             </p>
           </div>
-          <div className="md:w-[300px] md:my-12 space-y-6 text-sm">
+          <div className=" md:my-12 space-y-6 text-sm md:text-md">
             <div className="w-100 h-90 relative">
               <Image
                 src="/Frame 1686561722 (1).png"
@@ -56,7 +56,7 @@ export default function OurBlog() {
               the transition to electric mobility.
             </p>
           </div>
-          <div className="md:w-[300px] md:my-12 space-y-6 text-sm">
+          <div className=" md:my-12 space-y-6 text-sm md:text-md">
             <div className="w-100 h-90 relative">
               <Image
                 src="/Frame 1686561722 (2).png"

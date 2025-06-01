@@ -22,16 +22,16 @@ export default function WhatTheySay() {
                             </div>
                      </div>
                 </div>
-                <div className="flex flex-col justify-between space-y-6 mx-auto my-12">
-                    <div className="flex flex-col md:w-[708px] space-x-4 space-y-8 text-white">
-                        <div className="w-80 h-80 relative ml-10">
+                <div className="flex flex-col md:flex-row justify-around space-y-6 mx-auto my-12">
+                    <div className="flex flex-col space-y-6 text-white">
+                        <div className="w-80 h-80 relative ml-10 md:m-0">
                             <Image 
                                 src="/BG.png"
                                 alt="bg"
                                fill
                             />
                         </div>
-                        <div className="flex flex-col justify-around space-y-4">
+                        <div className="flex flex-col mt-4 space-y-3 ">
                         <div>
                                 <Image 
                                 src='/Frame 1686561740.png'
@@ -44,15 +44,15 @@ export default function WhatTheySay() {
                             <h5>David Lee</h5>
                         </div>
                     </div>
-                    <div className="flex flex-col md:w-[708px] space-x-6 space-y-4 text-white">
-                        <div className="w-80 h-80 relative ml-10">
+                    <div className="flex flex-col space-y-4 text-white">
+                        <div className="w-80 h-80 relative ml-10 md:m-0">
                             <Image 
                                 src="/BG (1).png"
                                 alt="bg"
                                 fill
                             />
                         </div>
-                        <div className="flex flex-col justify-around space-y-4">
+                        <div className="flex flex-col mt-4 space-y-3">
                         <div>
                                 <Image 
                                 src='/Frame 1686561740.png'
