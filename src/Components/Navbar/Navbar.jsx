@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <>
     
-    <div className='md:container fixed rounded-t-2xl  md:rounded-3xl md:h-[50px] w-[90%] mx-auto text-[#FCFCFD] backdrop-blur-xl flex justify-between items-center text-lg mb-4 md:mb-0'>
+    <div className='md:container fixed rounded-t-2xl p-2  md:rounded-3xl md:h-[100px] w-[90%] mx-auto text-[#FCFCFD] backdrop-blur-xl flex justify-between items-center text-lg mb-4 md:mb-0'>
         <div>
             <Image src='/logo.png' alt='logo' width={100} height={100} />
         </div>

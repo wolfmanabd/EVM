@@ -1,8 +1,8 @@
 import Image from "next/image";
 export default function HowItWorks() {
   return (
-    <section id="howitworks" className="bg-[#011929] text-white w-[100vw] text-md">
-      <div className="container md:text-md flex flex-col md:flex-row space-x-30 scroll-smooth">
+    <section id="howitworks" className="bg-[#011929] text-white w-[100vw] text-md scroll-mt-20">
+      <div className="container md:text-md flex flex-col md:flex-row space-x-30">
         <div className="md:flex space-y-6  md:mt-12">
           <p className="text-[#EB8F02] font-semibold my-6">How It Works</p>
           <div className="hidden md:block mt-6">

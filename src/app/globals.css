@@ -23,6 +23,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   /* background: var(--background); */
   /* color: var(--foreground); */
@@ -34,7 +38,6 @@ body {
 .main {
   width: 100%;
   overflow: hidden;
-  scroll-behavior: smooth;
 
 }
 
@@ -81,8 +84,8 @@ body {
     width: 425px;
   }
   .container {
-    width: 420px;
-    padding: 20px;
+    width: 90%;
+    padding: 10px;
     margin: 0 auto;
   }
 }
