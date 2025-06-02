@@ -6,15 +6,15 @@ export default function heroSection() {
       <div className="absolute inset-0 bg-black opacity-50 "></div>
       {/* Content */}-
       <div className="relative z-10 container flex md:items-center justify-between h-full text-white text-center">
-        <div className="absolute top-0 left-0 mx-auto">
+        <div className="container absolute top-0 left-0 mx-auto w-full">
           <Navbar />
         </div>
-        <div className="flex flex-col md:flex-row md:justify-between mt-15">
-          <div className=" text-start flex flex-col md:justify-around md:h-[328px] text-sm mb-6">
+        <div className="flex flex-col md:flex-row md:justify-between mt-20">
+          <div className=" text-start flex flex-col md:justify-around md:h-[328px] text-sm mb-6 space-y-4">
             <p className="text-[#EB8F02] font-bold">
               For Everyone, Every Business, and Every Electric Vehicle
             </p>
-            <h1 className="text-2xl md:text-6xl font-bold md:w-[500px]">
+            <h1 className="text-3xl md:text-6xl font-bold md:w-[500px]">
               Solutions for EV Charging Stations
             </h1>
             <p className="mt-1 md:w-[500px]">
@@ -31,12 +31,12 @@ export default function heroSection() {
               </button>
             </div>
           </div>
-          <div className="md:w-1/2  md:-mt-6">
-            <div className="w-80 h-60 md:w-150 md:h-[70vh] relative">
+          <div className="flex-1 md:-mt-6">
+            <div className="w-80 h-60 md:w-150 md:h-[to-100%] relative">
               <Image src="/iPhone 15 Pro.png" alt="My Next.js App Logo" fill />
             </div>
 
-            <div className="absolute bottom-0 md:bottom-8 md:ml-39 text-sm bg-[#FCFCFD33] text-white backdrop-blur-lg w-[270px] md:h-[152px] p-3 z-10 rounded-4xl text-start">
+            <div className="absolute bottom-[40px] left-30 md:bottom-8 md:ml-39 text-sm bg-[#FCFCFD33] text-white backdrop-blur-lg w-[270px] md:h-[152px] p-3 z-10 rounded-4xl text-start">
               <p>
                 Boost efficiency with the cutting-edge Charging Station App for
                 Electric Vehicle Owners
