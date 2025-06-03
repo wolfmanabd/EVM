@@ -6,7 +6,7 @@ export default function heroSection() {
       <div className="absolute inset-0 bg-black opacity-50 "></div>
       {/* Content */}-
       <div className="relative z-10 container flex md:items-center justify-between h-full text-white text-center">
-        <div className="absolute top-0 left-0 mx-auto w-full">
+        <div className="container absolute top-0 left-0 mx-auto w-full">
           <Navbar />
         </div>
         <div className="flex flex-col md:flex-row md:justify-between mt-20 md:mt-10">
